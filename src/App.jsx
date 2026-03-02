@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Form from './Form/Form'
 import MembershipForm from './membershipForm/MembershipForm'
+import MemberIdentityForm from './membersIdentityForm/MembersIdentityForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
      {/* <Form></Form> */}
-     <MembershipForm></MembershipForm>
+     {/* <MembershipForm></MembershipForm> */}
+     <MemberIdentityForm></MemberIdentityForm>
     </>
   )
 }
