@@ -1,0 +1,138 @@
+.page {
+  background:#eee;
+  display:flex;
+  justify-content:center;
+  padding:20px;
+}
+
+.paper {
+  width:210mm;
+  min-height:297mm;
+  background:white;
+  padding:25px;
+  border:1px solid black;
+  font-family:"Noto Sans Bengali", sans-serif;
+  font-size:14px;
+}
+
+.top-bar {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:15px;
+}
+
+.boxes, .member-no {
+  display:flex;
+  gap:3px;
+  align-items:center;
+}
+
+.digit-box {
+  width:22px;
+  height:28px;
+  border:1px solid black;
+}
+
+.pm {
+  width:40px;
+  height:28px;
+  border:1px solid black;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:bold;
+}
+
+.section-title {
+  border:1px solid black;
+  padding:4px 8px;
+  font-weight:bold;
+  margin:12px 0;
+}
+
+.row {
+  display:flex;
+  align-items:center;
+  margin-bottom:6px;
+}
+
+.label {
+  width:150px;
+}
+
+.line {
+  flex:1;
+  border-bottom:1px solid black;
+  height:16px;
+}
+
+.half-line {
+  width:200px;
+  border-bottom:1px solid black;
+  height:16px;
+  margin-right:20px;
+}
+
+.small-line {
+  width:80px;
+  border-bottom:1px solid black;
+  height:16px;
+}
+
+.dual .right {
+  margin-left:20px;
+}
+
+.address-fields {
+  display:flex;
+  gap:15px;
+  flex:1;
+}
+
+.inline-line {
+  width:100px;
+  border-bottom:1px solid black;
+  height:14px;
+  display:inline-block;
+  margin-left:4px;
+}
+
+.photo-section {
+  display:flex;
+  justify-content:space-between;
+  margin:15px 0;
+}
+
+.photo-box, .nid-box, .sign-box {
+  width:30%;
+  text-align:center;
+}
+
+.box {
+  height:120px;
+  border:1px solid black;
+  margin-top:5px;
+}
+
+.declaration {
+  display:flex;
+  gap:10px;
+  margin:15px 0;
+}
+
+.footer {
+  display:flex;
+  justify-content:space-between;
+  margin-top:30px;
+}
+
+.footer-line {
+  width:200px;
+  border-bottom:1px solid black;
+  margin-top:30px;
+}
+input {
+  border:none;                      
+  outline: none;              
+}
